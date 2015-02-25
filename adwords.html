@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ábaco Academy - Programa AdWords</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+		<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"-->
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<script>
+			$(document).ready(function () {
+			    $('.toggle-view').each(function(){
+			    	$(this).children('ul.list-group').hide()
+			    });
+				$('.toggle-view').click(function () {
+					var list = $(this).children('ul.list-group');
+					if (list.is(':hidden')) {
+						list.slideDown('200');
+						$(this).children('header').children('span').html('-');        
+					} else {
+						list.slideUp('200');
+						$(this).children('header').children('span').html('+');
+					}		
+				});
+			});
+		</script>
+
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MJD45N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MJD45N');</script>
+		<!-- End Google Tag Manager -->
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<a href="index.html">
+								<span class="image logo"><img src="images/abaco_logo.jpg" alt="" /></span>
+								<span class="image"><img src="images/abaco_academy_text.png" alt="" /></span>
+							</a>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Inicio</span></a></li>
+								<li><a href="#" id="adwords-link" class="skel-layers-ignoreHref active"><span class="icon fa-globe">Programa AdWords</span></a></li>
+								<li><a href="analytics.html" id="analytics-link" class="skel-layers-ignoreHref"><span class="icon fa-tachometer">Programa Analytics</span></a></li>
+								<li><a href="calendario.html" id="calendario-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Calendario</span></a></li>
+								<li><a href="instructores.html" id="instructores-link" class="skel-layers-ignoreHref"><span class="icon fa-users">Instructores</span></a></li>
+								<li><a href="acerca.html" id="acerca-link" class="skel-layers-ignoreHref"><span class="icon fa-question-circle">Acerca de Ábaco</span></a></li>
+								<li><a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+				<!-- Social Icons -->
+					<ul class="icons">
+						<li><a href="contacto.html" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="registro.html#mapa" class="icon fa-location-arrow"><span class="label">Ubicación</span></a></li>
+						<li><a  class="icon fa-phone tooltip">
+							<span>
+								<img class="callout" src="images/callout.gif" />
+								<strong>Teléfono</strong></br>
+								(55) 5424-0620
+							</span>
+						</a></li>
+					</ul>
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Programa Google AdWords</h2>
+							</header>
+							<h3>Introducción</h3>
+							<p>
+							Adwords es una manera que nos sirve para atraer a nuevos visitantes a los sitios 
+							determinados, aumentar las ventas en línea y/o incentivar a sus clientes a regresar 
+							por más. Permite orientar sus anuncios a los clientes en el momento y el lugar 
+							indicado. 
+							</p>
+							<div class="panel panel-default">
+  							    <div class="panel-heading">
+								    <h1 class="panel-title">Objetivo</h1>
+							    </div>
+							    <div class="panel-body">
+							    	<p>
+								    Abaco Academy ayudará a resolver problemas que surgen en medios 
+								    digitales utilizando habilidades y conceptos aprendidos en el curso. 
+								    </p>
+							    </div>
+							</div>
+							<div class="media">
+							    <div class="media-left">
+								    <a href="#">
+								  	    <img class="media-object" src="images/adwords-perfil.png" alt="...">
+								    </a>
+							    </div>
+							    <div class="media-body">
+							    	<h4 class="media-heading">Perfil sugerido</h4>
+										Empresarios, Mercadólogos, Comunicólogos, Publicistas que quieran optimizar la compra de medios para su comunicación. 
+							  	</div>
+							</div>
+						</div>
+					</section>
+						<section id="modulos" class="programa_ga">
+						<div class="container">
+							<header>
+								<h2>Módulos</h2>
+							</header>
+							
+							<p>El temario del programa de <strong>Google AdWords</strong> se divide en los siguientes módulos: (Los cursos pueden ser tomados por cada módulo o con el programa completo).</p>	
+							
+							<div class="panel panel-default">
+							  <div class="panel-body" onclick="dataLayer.push({'nombreTemario': 'fundamentals', 'event': 'interaccionTemario'});">
+								<h1>Fundamentals</h1>
+							    <table class="table">
+							      <tr>
+									<td><strong>Aprendizaje</strong></td>
+									<td>En este curso se discutirá sobre los básicos de AdWords, se usara la información para poder ser aplicada en situaciones reales.</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Duración</strong></td>
+									<td>12 horas</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Requerimientos</strong></td>
+									<td>Conocimiento básico de los medios digitales.</td> 
+								  </tr>
+								</table>
+								
+								<div class="toggle-view" >
+								  <header>
+									  <h1>Temario</h1>
+									  <span>+</span>
+								  </header>
+								  <ul class="list-group">
+									<li class="list-group-item">1. Conceptos básicos sobre AdWords</li>
+									<li class="list-group-item">2. Subasta de anuncios </li>
+									<li class="list-group-item">3. Cómo funciona AdWords Enriquezca su vocabulario de publicidad online Diferencia entre los resultados de búsqueda de Google y los anuncios </li>
+									<li class="list-group-item">4. De qué se debe realizar el seguimiento en función de los objetivos publicitarios ¿Cómo se calculan los costes en AdWords? </li>
+									<li class="list-group-item">5. Conceptos básicos de la posición y del ranking del anuncio </li>
+									<li class="list-group-item">6. Publicación de anuncios en Google AdWords: visión general </li>
+									<li class="list-group-item">7. Relevancia </li>
+									<li class="list-group-item">8. Conceptos básicos sobre la red de Google </li>
+									<li class="list-group-item">9. La red de Google </li>
+									<li class="list-group-item">10. Acerca de la Red de búsqueda de Google </li>
+									<li class="list-group-item">11. Acerca de la Red de Display de Google </li>
+									<li class="list-group-item">12. ¿Dónde pueden aparecer los anuncios en la Red de Display de Google? </li>
+									<li class="list-group-item">13. Acerca de la segmentación contextual</li>
+									<li class="list-group-item">14. Aplicación de examen</li>
+								  <ul>
+								</div>
+								
+								<a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a>
+								
+							  </div>
+							</div>
+							<div class="panel panel-default">
+							  <div class="panel-body" onclick="dataLayer.push({'nombreTemario': 'search', 'event': 'interaccionTemario'});">
+								<h1>Search</h1>
+								<table class="table">
+							      <tr>
+									<td><strong>Aprendizaje</strong></td>
+									<td>En este curso se examinará la mejor manera de usar search para obtener los objetivos buscados de la manera más eficiente.</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Duración</strong></td>
+									<td>12 horas</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Requerimientos</strong></td>
+									<td>Haber certificado AdWords / Fundamentals.</td> 
+								  </tr>
+								</table>
+								<div class="toggle-view" >
+								  <header>
+									  <h1>Temario</h1>
+									  <span>+</span>
+								  </header>
+								  <ul class="list-group">
+									<li class="list-group-item">1. Search fundamentals review</li>
+									<li class="list-group-item">2. Ad formats Ad Formats</li>
+									<li class="list-group-item">3. Ad Extensions</li>
+									<li class="list-group-item">4. Ad and site quality</li>
+									<li class="list-group-item">5. Adwords tools</li>
+									<li class="list-group-item">6. Performance monitoring and reporting Introduction to AdWords Reporting</li>
+									<li class="list-group-item">7. Interpreting AdWords Reports</li>
+									<li class="list-group-item">8. Additional Performance Insights</li>
+									<li class="list-group-item">9. Optimizing performance</li>
+									<li class="list-group-item">10. Performance, profitability and growth Budget GrowthBidding for Performance</li>
+									<li class="list-group-item">11. Profitability and Lifetime Value</li>
+									<li class="list-group-item">12. Adwords API</li>
+									<li class="list-group-item">13. Aplicación de examen</li>
+								  <ul>
+								</div>
+								
+								<a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a>
+								
+							  </div>
+							</div>
+							<div class="panel panel-default">
+							  <div class="panel-body" onclick="dataLayer.push({'nombreTemario': 'display', 'event': 'interaccionTemario'});">
+								<h1>Display/Red de Display</h1>
+								<table class="table">
+							      <tr>
+									<td><strong>Aprendizaje</strong></td>
+									<td>En este curso se verá cómo crear anuncios, localizarlos y manejarlos. </td> 
+								  </tr>
+								  <tr>
+									<td><strong>Duración</strong></td>
+									<td>12 horas</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Requerimientos</strong></td>
+									<td>Haber certificado AdWords / Fundamentals.</td> 
+								  </tr>
+								</table>
+								<div class="toggle-view" >
+								  <header>
+									  <h1>Temario</h1>
+									  <span>+</span>
+								  </header>
+								  <ul class="list-group">
+									<li class="list-group-item">1. Anuncios gráficos en la Red de Display de Google</li>
+									<li class="list-group-item">2. Anuncios gráficos en YouTube</li>
+									<li class="list-group-item">3. Anuncios gráficos en dispositivos móviles</li>
+									<li class="list-group-item">4. Aplicación de examen</li>
+								  <ul>
+								</div>
+								
+								<a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a>
+								
+							  </div>
+							</div>
+							<div class="panel panel-default">
+							  <div class="panel-body" onclick="dataLayer.push({'nombreTemario': 'video', 'event': 'interaccionTemario'});">
+								<h1>Video</h1>
+								<table class="table">
+							      <tr>
+									<td><strong>Aprendizaje</strong></td>
+									<td>Aprenderá los conceptos básicos y avanzados de video en YouTube y la Red de Display de Google, lo que incluye temas como los formatos de anuncio, la segmentación y la generación de informes.</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Duración</strong></td>
+									<td>6 horas</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Requerimientos</strong></td>
+									<td>Haber certificado AdWords / Fundamentals, Search y/o Display.</td> 
+								  </tr>
+								</table>
+								<div class="toggle-view" >
+								  <header>
+									  <h1>Temario</h1>
+									  <span>+</span>
+								  </header>
+								  <ul class="list-group">
+									<li class="list-group-item">1. Beneficios de la publicidad en YouTube</li>
+									<li class="list-group-item">2. YouTube y el compromiso del espectador (o público)</li>
+									<li class="list-group-item">3. Dónde puede aparecer el anuncio</li>
+									<li class="list-group-item">4. Cómo llegar a su público</li>
+									<li class="list-group-item">5. Aplicación de examen</li>
+								  <ul>
+								</div>
+								
+								<a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a>
+							  </div>
+							</div>
+						</div>
+					</section>	
+					<section>
+						<div class="container">
+							<header>
+								<h2>Certificaciones de Ábaco</h2>
+							</header>
+							<a href="http://www.google.com/analytics/partners/partners-detail.html#Abaco%20Metrics" target="_blank"><img src="http://abacometrics.com/wp-content/uploads/2014/01/PremiumResellerBadge80X80.jpg"></a>
+							<a href="http://www.google.com/analytics/partners/partners-detail.html#Abaco%20Metrics" target="_blank"><img src="http://abacometrics.com/wp-content/uploads/2012/04/Abaco-Metrics-GACP-80x80-click.jpg"></a>
+							<a href="https://www.google.com/partners/#a_profile;idtf=011077932255709918483;" target="_blank"><img class="alignright size-full wp-image-81" style="margin-top: 15px;" title="adwords_certified_partner_web_EN" src="http://abacodigital.com/wp-content/uploads/2013/10/Abaco-Digital-Google-Partner-Badge.png" alt="" width="200" height="80"></a>					
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Ábaco Academy. Todos los derechos reservados.</li>
+						<li>Lee nuestras <a href="politicas.html">políticas de privacidad</a></li>
+					</ul>
+				
+			</div>
+
+	</body>
+</html>

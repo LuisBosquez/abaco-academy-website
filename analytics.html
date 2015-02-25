@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ábaco Academy - Programa Analytics</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+		<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"-->
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<script>
+			$(document).ready(function () {
+			    $('.toggle-view').each(function(){
+			    	$(this).children('ul.list-group').hide()
+			    });
+				$('.toggle-view').click(function () {
+					var list = $(this).children('ul.list-group');
+					if (list.is(':hidden')) {
+						list.slideDown('200');
+						$(this).children('header').children('span').html('-');        
+					} else {
+						list.slideUp('200');
+						$(this).children('header').children('span').html('+');
+					}		
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MJD45N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MJD45N');</script>
+		<!-- End Google Tag Manager -->
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<a href="index.html">
+								<span class="image logo"><img src="images/abaco_logo.jpg" alt="" /></span>
+								<span class="image"><img src="images/abaco_academy_text.png" alt="" /></span>
+							</a>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Inicio</span></a></li>
+								<li><a href="adwords.html" id="adwords-link" class="skel-layers-ignoreHref"><span class="icon fa-globe">Programa AdWords</span></a></li>
+								<li><a href="#" id="analytics-link" class="skel-layers-ignoreHref active"><span class="icon fa-tachometer">Programa Analytics</span></a></li>
+								<li><a href="calendario.html" id="calendario-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Calendario</span></a></li>
+								<li><a href="instructores.html" id="instructores-link" class="skel-layers-ignoreHref"><span class="icon fa-users">Instructores</span></a></li>
+								<li><a href="acerca.html" id="acerca-link" class="skel-layers-ignoreHref"><span class="icon fa-question-circle">Acerca de Ábaco</span></a></li>
+								<li><a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+				<!-- Social Icons -->
+					<ul class="icons">
+						<li><a href="contacto.html" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="registro.html#mapa" class="icon fa-location-arrow"><span class="label">Ubicación</span></a></li>
+						<li><a  class="icon fa-phone tooltip">
+							<span>
+								<img class="callout" src="images/callout.gif" />
+								<strong>Teléfono</strong></br>
+								(55) 5424-0620
+							</span>
+						</a></li>
+					</ul>
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Programa Google Analytics</h2>
+							</header>
+							<h3>Introducción</h3>
+							<p>
+							Analytics son herramientas de medición para las empresas, en donde se puede consultar la ruta completa 
+							de una conversión, mide los resultados en smartphones, sitios web para móviles y aplicaciones para móviles,
+							 y también, mide el impacto de las redes sociales en los objetivos de su negocio y resultados. 
+							</p>
+							<div class="panel panel-default">
+  							    <div class="panel-heading">
+								    <h1 class="panel-title">Objetivo</h1>
+							    </div>
+							    <div class="panel-body">
+							    	<p>
+								    Abaco Academy explicará a usar métodos, conceptos, teorías de Analytics 
+								    en situaciones comunes que las empresas enfrentan día a día. 
+								    </p>
+							    </div>
+							</div>
+							<div class="media">
+							    <div class="media-left">
+								    <a href="#">
+								  	    <img class="media-object" src="images/analytics-perfil.png" alt="...">
+								    </a>
+							    </div>
+							    <div class="media-body">
+							    	<h4 class="media-heading">Perfil sugerido</h4>
+										Empresarios, Mercadólogos, Comunicólogos, Publicistas, Area IT que quieran evaluar y sintetizar el camino de sus esfuerzos digitales. 
+							  	</div>
+							</div>
+						</div>
+					</section>
+						<section id="modulos" class="analytics">
+						<div class="container">
+							<header>
+								<h2>Módulos</h2>
+							</header>
+							
+							<p>El temario del programa de <strong>Google Analytics</strong> se divide en los siguientes módulos:</p>	
+							
+							<div class="panel panel-default">
+							  <div class="panel-body" onclick="dataLayer.push({'nombreTemario': 'googleanalytics1', 'event': 'interaccionTemario'});">
+								<h1>Google Analytics I</h1>
+							    <table class="table">
+							      <tr>
+									<td><strong>Aprendizaje</strong></td>
+									<td>En este curso se explicará qué es Google Analytics y cómo se puede usar para su negocio.</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Duración</strong></td>
+									<td>12 horas</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Requerimientos</strong></td>
+									<td>Conceptos básicos de análisis digital. Conocimiento de la importancia del sitio web y su medición. Tener una cuenta de gmail.</td> 
+								  </tr>
+								</table>
+								
+								<div class="toggle-view" >
+								  <header>
+									  <h1>Temario</h1>
+									  <span>+</span>
+								  </header>
+								  <ul class="list-group">
+									<li class="list-group-item">1. Digital Analytics y su impacto en los negocios</li>
+									<li class="list-group-item">2. Presentación general de Google Analytics y controles básicos de navegación</li>
+									<li class="list-group-item">3. Grupos de reportes en Google Analytics</li>
+									<li class="list-group-item">4. Administración de cuentas y perfiles en Google Analytics</li>
+									<li class="list-group-item">5. Ejercicio práctico: Modelo de medición y reportes clave en Google Analytics por objetivos de negocio</li>
+								  <ul>
+								</div>
+								
+								<a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a>
+
+							  </div>
+							</div>
+							<div class="panel panel-default">
+							  <div class="panel-body" onclick="dataLayer.push({'nombreTemario': 'googleanalytics2', 'event': 'interaccionTemario'});">
+								<h1>Google Analytics II</h1>
+								<table class="table">
+							      <tr>
+									<td><strong>Aprendizaje</strong></td>
+									<td>En este curso se resumirá la mejor manera de interpretar los números a significados para la marca.</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Duración</strong></td>
+									<td>24 horas</td> 
+								  </tr>
+								  <tr>
+									<td><strong>Requerimientos</strong></td>
+									<td>Haber completado la certificación de Google Analytics I. Contar con un conocimiento previo de la herramienta. Interés sobre el rendimiento y análisis de un  sitio web para una buena toma de decisiones. </td> 
+								  </tr>
+								</table>
+								<div class="toggle-view" >
+								  <header>
+									  <h1>Temario</h1>
+									  <span>+</span>
+								  </header>
+								  <ul class="list-group">
+									<li class="list-group-item">1. Modelo de Medición Mapa de propiedades digitales</li>
+									<li class="list-group-item">1.1. Matriz Digital Intelligence</li>
+									<li class="list-group-item">2. Análisis a partir de la generación de reportes clave Reporte vs. Análisis</li>
+									<li class="list-group-item">2.1. Experiencia</li>
+									<li class="list-group-item">2.2. Público</li>
+									<li class="list-group-item">2.3. Adquisición</li>
+									<li class="list-group-item">2.4. Comportamiento</li>
+									<li class="list-group-item">2.5. Resultados</li>
+									<li class="list-group-item">3. Recolección de datos Buenas prácticas de etiquetado</li>
+									<li class="list-group-item">3.1. Etiquetado de campañas</li>
+									<li class="list-group-item">3.2. Seguimiento de interacciones</li>
+									<li class="list-group-item">3.3. Ecommerce</li>
+									<li class="list-group-item">3.4. Variables personalizadas</li>
+									<li class="list-group-item">4. Funcionalidades avanzadas Dimensiones secundarias</li>
+									<li class="list-group-item">4.1. Segmentos avanzados</li>
+									<li class="list-group-item">4.2. Informes personalizados</li>
+									<li class="list-group-item">4.3. Embudos multicanal</li>
+									<li class="list-group-item">4.4. Conversiones por contribución</li>
+									<li class="list-group-item">4.5. Rutas de conversión</li>
+									<li class="list-group-item">4.6. Modelos de atribución</li>
+									<li class="list-group-item">4.7. Modelos deatribución en comparación</li>
+									<li class="list-group-item">4.8. Modelos de atribución personalizados</li>
+									<li class="list-group-item">5. Logística Nivel de cuenta</li>
+									<li class="list-group-item">5.1. Nivel de propiedad</li>
+									<li class="list-group-item">5.2. Nivel de perfil</li>
+									<li class="list-group-item">6. Configuración de propiedades y cuentas</li>
+								  <ul>
+								</div>
+								
+								<a href="registro.html" id="registro-link" class="skel-layers-ignoreHref button registration-form">¡Regístrate!</a>
+								
+							  </div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="container">
+							<header>
+								<h2>Certificaciones de Ábaco</h2>
+							</header>
+							<a href="http://www.google.com/analytics/partners/partners-detail.html#Abaco%20Metrics" target="_blank"><img src="http://abacometrics.com/wp-content/uploads/2014/01/PremiumResellerBadge80X80.jpg"></a>
+							<a href="http://www.google.com/analytics/partners/partners-detail.html#Abaco%20Metrics" target="_blank"><img src="http://abacometrics.com/wp-content/uploads/2012/04/Abaco-Metrics-GACP-80x80-click.jpg"></a>
+							<a href="https://www.google.com/partners/#a_profile;idtf=011077932255709918483;" target="_blank"><img class="alignright size-full wp-image-81" style="margin-top: 15px;" title="adwords_certified_partner_web_EN" src="http://abacodigital.com/wp-content/uploads/2013/10/Abaco-Digital-Google-Partner-Badge.png" alt="" width="200" height="80"></a>					
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Ábaco Academy. Todos los derechos reservados.</li>
+						<li>Lee nuestras <a href="politicas.html">políticas de privacidad</a></li>
+					</ul>
+				
+			</div>
+
+	</body>
+</html>
